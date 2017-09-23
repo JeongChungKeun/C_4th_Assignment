@@ -20,9 +20,9 @@ int main(void)
 	
 	printf("\nEntered Matrix: \n");
 
-	for(i = 0; i < r; ++i)
+	for(i = 0 ; i < r; ++i)
 	{
-		for(j = 0; j < c ; ++j)
+		for(j = 0 ; j < c ; ++j)
 		{
 			printf("%d ", a[i][j]);
 			if(j == c-1)
@@ -32,7 +32,7 @@ int main(void)
 	
 	for(i = 0 ; i < c ; ++i)
 	{
-		for(j = 0; j < r ; ++j)
+		for(j = 0 ; j < r ; ++j)
 		{
 			transpose[i][j] = a[j][i];
 		}
